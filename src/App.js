@@ -1,11 +1,11 @@
 import React from 'react';
+import Routes from './components/Routes';
 import { MessageList } from './features/message/messageList';
-import './style/App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>DISOCIAL</h1>
+      <Routes />
       <MessageList />
     </div>
   );
